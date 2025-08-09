@@ -52,3 +52,5 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs/Ubuntu/FileContentIndex/556479e1-1cb9-4733-b6e1-bb909d184243.vsidx
+*.vsidx
