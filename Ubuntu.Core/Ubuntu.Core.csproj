@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Ubuntu.Core</PackageId>
+    <Version>1.0.0-beta</Version>
+    <Authors>Ngxongo, Siyanda</Authors>
+    <Company>Ubuntu.Core</Company>
+    <Description>Ubuntu.Core.Mapping is a simple, convention-based object mapper designed for modern .NET applications. It provides an elegant and concise way to map properties from one object to another, with a focus on simplicity and dependency injection.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/siyandan/Ubuntu</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
